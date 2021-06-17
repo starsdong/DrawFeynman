@@ -55,7 +55,7 @@ void hfDIS()
 
    
    c1->Update();
-   c1->SaveAs("fig/Feynman_hfDIS.pdf");
-   c1->SaveAs("fig/Feynman_hfDIS.png");
+   c1->SaveAs("../fig/Feynman_hfDIS.pdf");
+   c1->SaveAs("../fig/Feynman_hfDIS.png");
    
 }

@@ -41,7 +41,7 @@ void jpsiPhoto()
    drawEllipse(52.5, 56, 2.8, 2.8, 0., 360., 0., 3005, kBlue, 1, 1, kBlue);
    
    c1->Update();
-   c1->SaveAs("fig/Feynman_jpsiPhoto.pdf");
-   c1->SaveAs("fig/Feynman_jpsiPhoto.png");
+   c1->SaveAs("../fig/Feynman_jpsiPhoto.pdf");
+   c1->SaveAs("../fig/Feynman_jpsiPhoto.png");
    
 }
