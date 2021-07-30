@@ -28,31 +28,32 @@ void hfLcDIS()
    // drawArrowLine(42, 23, 85, 12);
    // drawText(68, 6, "P'", 32, 0.08, 0, kBlack);
    drawArrowLine(10, 10, 35, 20, 0.05, 30, 5, 1, kBlack);
-   drawArrowLine(42, 21, 85, 10, 0.05, 30, 5, 1, kBlack);
+   drawArrowLine(42, 21, 59, 16.5, 0.05, 30, 3, 1, kBlack);
+   drawArrowLine(65, 15, 90, 8, 0.05, 30, 5, 1, kBlack);
    drawText(14, 6, "p/A", 32, 0.08, 0, kBlack);
-   drawText(68, 6, "p'/A*", 32, 0.08, 0, kBlack);
+   drawText(72, 4, "p'/A*", 32, 0.08, 0, kBlack);
 
    // charm quarks
    drawArrowLine(45, 50, 45, 35, 0.03, 30, 1, 1, kBlue);
-   drawArrowLine(60, 54, 45, 50, 0.03, 30, 1, 1, kBlue);
-   drawArrowLine(45, 35, 60, 32, 0.03, 30, 1, 1, kBlue);
-   drawText(51, 53.5, "#bar{c}", 32, 0.06, 0, kBlue);
+   drawArrowLine(59, 48, 45, 50, 0.03, 30, 1, 1, kBlue);
+   drawArrowLine(45, 35, 58, 32, 0.03, 30, 1, 1, kBlue);
+   drawText(51, 51, "#bar{c}", 32, 0.06, 0, kBlue);
    drawText(51, 36, "c", 32, 0.06, 0, kBlue);
    drawGluon(35, 24, 45, 35, 1, 1, kRed+1);
    drawText(35, 32, "x_{g}", 32, 0.07, 0, kRed);
 
-   drawArrowLine(90, 61.5, 65, 55, 0.03, 30, 3, 1, kBlue);
+   drawArrowLine(89, 46, 65, 47, 0.03, 30, 3, 1, kBlue);
    //   drawArrowLine(90, 61, 65, 54.5, 0.03, 30, 1, 1, kBlue);
-   drawText(72, 51, "#bar{D}", 32, 0.08, 0, kBlue);
-   drawEllipse(62.5, 54.5, 2.8, 2.8, 0., 360., 0., 3005, kBlue, 1, 1, kBlue);
+   drawText(75, 49, "#bar{D}", 32, 0.08, 0, kBlue);
+   //   drawEllipse(62.5, 54.5, 2.8, 2.8, 0., 360., 0., 3005, kBlue, 1, 1, kBlue);
    
    //   drawArrowLine(65, 30, 90, 25, 0.03, 30, 3, 1, kBlue);
-   drawArrowLine(65, 31, 90, 26., 0.03, 30, 3, 1, kBlue);
-   drawText(72, 32., "#Lambda_{c}^{+}", 32, 0.08, 0, kBlue);
-   drawEllipse(62.5, 31.5, 2.8, 2.8, 0., 360., 0., 3005, kBlue, 1, 1, kBlue);
+   drawArrowLine(66, 30, 90, 25., 0.03, 30, 3, 1, kBlue);
+   drawText(75, 31., "#Lambda_{c}^{+}", 32, 0.08, 0, kBlue);
    
    drawEllipse(38, 21, 6, 4, 0., 360., 0., 1000, 1);
 
+   drawEllipse(62, 32, 4, 27, 0., 360., 0., 3005, kBlue, 1, 1, kBlue);
    
    c1->Update();
    c1->SaveAs("../fig/Feynman_hfLcDIS.pdf");
